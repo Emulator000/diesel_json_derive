@@ -10,6 +10,13 @@ test:
 readme:
     cargo readme > README.md
 
+# release:
+#     cargo readme > README.md
+#     cargo release patch
+#     cargo release -p package
+#     cargo release --execute
+
+
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # postgres
 

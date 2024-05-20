@@ -21,6 +21,7 @@
           packages = with pkgs; [
             cargo-expand
             cargo-readme
+            cargo-release
             diesel-cli
             postgresql
             postgresql.lib

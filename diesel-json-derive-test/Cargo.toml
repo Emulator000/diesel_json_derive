@@ -1,0 +1,12 @@
+[package]
+name = "diesel-json-derive-test"
+version = "0.1.0"
+edition = "2021"
+description = "A test project for diesel-json-derive-macro"
+publish = false
+
+[dependencies]
+serde = { version = "1.0.202", features = ["derive"] }
+diesel-json-derive-macro = { path = "../macro" }
+diesel = { version = "2.1.6", features = ["postgres"] }
+serde_json = "1.0.117"

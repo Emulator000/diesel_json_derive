@@ -1,0 +1,5 @@
+/target
+/.direnv/
+/postgres.log
+/postgres_data/
+/postgres_run/

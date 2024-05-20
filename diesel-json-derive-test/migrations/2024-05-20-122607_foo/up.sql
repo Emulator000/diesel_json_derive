@@ -1,0 +1,4 @@
+CREATE TABLE foo (
+  id TEXT PRIMARY KEY,
+  bar JSONB NOT NULL
+);

@@ -4,7 +4,7 @@ members = ["diesel-json-derive-test"]
 
 [package]
 name = "diesel-json-derive"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 homepage = "https://github.com/rksm/diesel-json-derive"
 license = "MIT"

@@ -67,6 +67,13 @@
 //!     x: i32,
 //! }
 //! ```
+//!
+//! ### diesel_json_derive vs ## diesel_json
+//!
+//! The [diesel_json](https://crates.io/crates/diesel_json) crate solves the
+//! same problem but uses a wrapper type for it. This has the disadvantage that
+//! this type needs to be used when matching for example. This crate does not
+//! have this disadvantage.
 
 
 

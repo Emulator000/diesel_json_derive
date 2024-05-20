@@ -1,5 +1,7 @@
 # diesel-json-derive
 
+![Crates.io Version](https://img.shields.io/crates/v/diesel-json-derive)
+
 __NOTE:__ This is under active development. No guarantees for stability or usability. You probably want [diesel_json](https://crates.io/crates/diesel_json) instead. Please also note that this currently expects postgres. Pull requests to support other backends are welcome.
 
 ### diesel_json_derive

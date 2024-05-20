@@ -1,6 +1,8 @@
-__NOTE:__ This is under active development. No guarantees for stability or usability. You probably want [diesel_json](https://crates.io/crates/diesel_json) instead.
+# diesel-json-derive
 
-## diesel_json_derive
+__NOTE:__ This is under active development. No guarantees for stability or usability. You probably want [diesel_json](https://crates.io/crates/diesel_json) instead. Please also note that this currently expects postgres. Pull requests to support other backends are welcome.
+
+### diesel_json_derive
 
 What's this? This is a procedural macro that automatically derives `ToSql` and `FromSql` for Diesel's `Jsonb` type.
 
@@ -67,3 +69,5 @@ struct Bar {
     x: i32,
 }
 ```
+
+License: MIT

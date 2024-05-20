@@ -70,7 +70,7 @@ struct Bar {
 }
 ```
 
-#### diesel_json_derive vs ## diesel_json
+#### diesel_json_derive vs diesel_json
 
 The [diesel_json](https://crates.io/crates/diesel_json) crate solves the
 same problem but uses a wrapper type for it. This has the disadvantage that

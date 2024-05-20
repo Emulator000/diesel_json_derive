@@ -7,6 +7,9 @@ expand:
 test:
     cargo build
 
+readme:
+    cargo readme > README.md
+
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # postgres
 

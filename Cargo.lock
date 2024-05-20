@@ -28,7 +28,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "diesel-json-derive-macro"
+name = "diesel-json-derive"
 version = "0.1.0"
 dependencies = [
  "heck",
@@ -41,7 +41,7 @@ name = "diesel-json-derive-test"
 version = "0.1.0"
 dependencies = [
  "diesel",
- "diesel-json-derive-macro",
+ "diesel-json-derive",
  "serde",
  "serde_json",
 ]

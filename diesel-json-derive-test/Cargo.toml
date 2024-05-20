@@ -7,6 +7,6 @@ publish = false
 
 [dependencies]
 serde = { version = "1.0.202", features = ["derive"] }
-diesel-json-derive-macro = { path = "../macro" }
+diesel-json-derive = { path = "../" }
 diesel = { version = "2.1.6", features = ["postgres"] }
 serde_json = "1.0.117"

@@ -3,7 +3,7 @@ mod schema;
 use diesel::prelude::*;
 use diesel::sql_types::Jsonb;
 use diesel::{FromSqlRow, AsExpression};
-use diesel_json_derive_macro::DieselJsonb;
+use diesel_json_derive::DieselJsonb;
 use serde::{Deserialize, Serialize};
 
 #[derive(

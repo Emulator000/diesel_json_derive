@@ -1,3 +1,21 @@
 [workspace]
 resolver = "2"
-members = ["macro", "diesel-json-derive-test"]
+members = ["diesel-json-derive-test"]
+
+[package]
+name = "diesel-json-derive"
+version = "0.1.0"
+edition = "2021"
+homepage = "https://github.com/rksm/diesel-json-derive"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rksm/diesel-json-derive"
+description = "Macro crate implementing the proc macro for diesel-json-derive"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+heck = "0.5.0"
+quote = "1"
+syn = { version = "2", features = ["full"] }

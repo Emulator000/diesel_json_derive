@@ -58,7 +58,7 @@ This gets tedious quickly so this create does it for you. So with this crate you
 ```rust
 use diesel::sql_types::Jsonb;
 use diesel::{FromSqlRow, AsExpression};
-use diesel_json_derive_macro::DieselJsonb;
+use diesel_json_derive::DieselJsonb;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize, AsExpression, FromSqlRow, DieselJsonb)]
